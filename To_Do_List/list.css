@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.max-img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.normal {
+    font-size: 16px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Solway', serif;
+}
+
+/***************** header ***************/
+
+main {
+    background: #edfafa;
+    width: 90%;
+    margin: 50px auto;
+}
+
+nav {
+    flex: 10;
+    align-content: center;
+}
+
+.logout {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logout h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.logout h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #242963;
+    padding: 12px 0px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight:300;
+    padding: 17px;
+}
+
+.nav-link:hover {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+/*************** body ********/
+
+.body {
+    padding: 15px;
+}
+
+.room-title {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tasks {
+    display: flex;
+    margin: auto;
+}
+
+.incompleted {
+    width: 50%;
+    border-right: 1px solid grey;
+    padding-right: 5px;
+}
+
+.completed {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.c-title {
+    padding: 15px;
+}
+
+.create {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 2px;
+}
+
+.inputs {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.input-style {
+    padding: 3px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin: 0px 3px;
+}
+
+.input-style:focus {
+    border-bottom: 2px solid green;
+}
+
+.c-btn {
+    width: 30%;
+    margin: 15px auto;
+    padding: 8px 0px;
+    border: none;
+    background: #242963;
+    color: white;
+    font-weight: 500;
+    font-family: 'Solway', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collection {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.items {
+    margin: 10px auto;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.item {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.list {
+    flex: 1;
+}
+
+.list , .listadress{
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.listadress {
+    flex: 3;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.imglist {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.facture {
+    flex: 1;
+}
+
+.resume {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.imprimer {
+    text-align: center;
+    padding: 3px;
+}
+
+.facture h1 {
+    font-size: 13px;
+}

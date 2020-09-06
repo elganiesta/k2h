@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-img {
+    width: 80px;
+}
+
+
+body {
+    font-family: 'Solway', serif;
+}
+
+ul {
+    list-style: none;
+}
+/***************** header ***************/
+
+
+
+header {
+    display: flex;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .user {
+    display: flex;
+}
+
+.logo-container {
+    flex : 1;
+}
+
+nav {
+    flex : 2;
+}
+
+.nav-links {
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    margin : 20px;
+    color: #005EA5;
+    text-decoration: none;
+    font-weight:500;
+}
+
+.nav-link:hover , .nav-link2:hover {
+    color:#FF4F09;
+}
+
+.user img {
+    width: 30px;
+    margin: 5px;
+}
+
+h4 {
+    text-align: center;
+    margin: auto 0;
+}
+
+.nav-link2 {
+    color: #005EA5;
+    text-decoration: none;
+    font-weight:500;
+}
+
+.user {
+    flex : 2;
+    justify-content: flex-end;
+}
+
+
+
+/******************* home ***************/
+
+
+.home {
+    background: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* supprimer bach tkbar*/
+    background-position: center;
+    width: 100%;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    animation: show 4s ease;
+}
+
+.intro {
+    width: 42%;
+}
+
+.intro-text h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;;
+}
+
+.intro-text p {
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    padding: 20px 0 0 0 ;
+}
+.intro-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro-btn {
+    border: none;
+    background: #005EA5 ;
+    color: #fff;
+    font-family: 'Solway', serif;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.intro-btn:hover {
+    background: #FF4F09;
+    color: #fff;
+}
+
+
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes up {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+/********** services *******/
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-card1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.s-card2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.s-card1-title {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.s-card1-text {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Abel';
+    font-size: 13px;
+}
+
+.s-card2-article {
+    flex: 1;
+    margin: 2%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black ;
+}
+
+
+.text-article {
+    font-family: 'Abel';
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+
+/************* rappel *********/
+
+.rappel {
+    background: url(images/bg-2.jpg) right/cover ;
+    height: 400px;
+    padding: 5%;
+}
+
+.r-title {
+    margin-top: 2%;
+}
+
+.btn-rappel a {
+    color: white;
+}
+
+.btn-rappel {
+    background-color: #FF527A;
+    border : none;
+    color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    font-family: 'Calistoga', serif;
+    font-size: 15px;
+    margin: 5% 10% ;
+}
+
+.btn-rappel:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-rappel:active {
+    margin: 5.2% 10%;
+}
+
+
+/**************** contact **************/
+
+
+
+.contact_card1 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 4%;
+}
+
+.card1_article {
+    flex: 1;
+    text-align: center;
+}
+
+.card1_article li {
+    font-size: 14px;
+} 
+
+.card1_article img {
+    width: 80px;
+    height: 80px;
+}
+
+.card1_article h1 {
+    margin: 8px;
+}
+
+.contact_card2 {
+    background: url(images/d-background.jpeg) left/cover;
+    height: 450px;
+    padding: 5%;
+}
+
+
+.card2_title {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    padding : 5px;
+}
+
+.form {
+    background: #fff;
+    width: 35%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #fff,-5px -5px 20px #fff;
+    overflow: hidden;
+    height: 12%;
+}
+
+@keyframes k_height {
+    0% {
+        height: 12%;
+    }
+    100% {
+        height: 105%;
+    }
+}
+
+.card2_title h1{
+    text-align: center;
+    font-size: 20px;
+    flex: 1;
+    color: #466674 ;
+}
+
+.card2_title img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.card2_article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+
+.card2_article input {
+    margin-bottom: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#large_input {
+    height: 120px;    
+}
+
+.send-btn {
+    width: 30%;
+    margin: auto;
+    background-color: #466674;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/**************** footer *******/
+
+footer {
+    background-color: black;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.content span {
+    flex: 1;
+}
+
+
+footer img {
+    width: 30px;
+}
+
+footer span:hover {
+    color : #E60000;
+}
+
+
+/***************** screen ***************/ 
+
+@media screen and (max-width:740px) {
+    
+
+    
+    .home {
+        padding-top: 50px;
+        padding-top: 50px;
+    }
+    .intro-text h1 {
+        font-size: 20px;
+    }
+    .intro-text p {
+        font-size: 12px;
+    }
+    header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    }
+    .nav-link {
+    margin : 10px;
+    color: #005EA5;
+    text-decoration: none;
+    font-weight:500;
+    }
+    .logo-container {
+    flex : 0;
+    }
+
+    nav {
+    flex : 0;
+    }
+    .user {
+    flex : 0;
+    justify-content: flex-end;
+    }
+    .s-card2 {
+        flex-direction: column;
+    }
+    .s-card1-title {
+        font-size: 10px;
+    }
+    
+    .contact_card1 {
+        flex-direction: column;
+    }
+    
+    .form {
+        width: 80%;
+    }
+}
+
+
+
+
+

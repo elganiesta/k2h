@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 80px;
+}
+
+body {
+    font-family: 'Solway', serif;
+    background: url(login_img/bg-l3.jpg) top left/cover no-repeat;
+}
+
+/***************** header ***************/
+
+header {
+    display: flex;
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    border-bottom: none;
+}
+
+.logo-container, .nav-links{
+    display: flex;
+}
+
+.logo-container {
+    flex : 1;
+    padding-left: 20px;
+}
+
+nav {
+    flex : 1;
+}
+
+.nav-links {
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    margin : 20px;
+    color: #005EA5;
+    text-decoration: none;
+    font-weight:500;
+}
+
+.nav-link:hover , .nav-link2:hover {
+    color:#FF4F09;
+}
+
+
+/******** login ********/
+
+.login-home {
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+.livreur-card {
+    background: #5eabed;
+    width: 50%;
+    margin: auto;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 8px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    overflow: hidden;
+}
+
+
+/***** left box *****/
+
+.card-image {
+    background: url(login_img/head3-1.jpg) center/cover ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    flex: 1;
+}
+
+.socialmedia {
+    width: 70%;
+    margin: 50% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socialmedia h1 {
+    margin: 10px;
+    color: #fff;
+    font-size: 35px;
+    text-shadow: -4px 4px 5px black;
+}
+
+button.social-signin {
+    border: none;
+    margin-bottom: 10px;
+    height: 36px;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.social-signin:hover {
+    margin-left: -2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+
+/***** right box *****/
+
+
+.card-body1, .card-body2  {
+    flex: 1;
+}
+
+.card-body1 {
+    display: block;
+}
+
+.myplace {
+    margin-top: -25%;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    text-shadow: 0 2px 1px black;
+}
+
+.myplace a {
+    color: #000;
+    text-shadow: none;
+}
+
+.card-body2 {
+    display: none;
+    position: relative;
+} 
+
+
+
+.input-boxs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30% auto;
+    text-align: center;
+}
+
+.input-boxs h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 35px;
+    text-shadow: -4px 4px 5px black;
+}
+
+.input-field {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.input-btn {
+    width: 30%;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transition: 0.2s ease;
+}
+
+.input-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: 0.2s ease;
+}
+
+.input-field:focus {
+    width: 82%;
+    border-bottom: 2px solid #fff;
+    color: #16a085;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.buttons {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    border-radius: 999px;
+    padding: 5px;
+    width: 50%;
+}
+.buttons button {
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 999px;
+}
+.but_entr {
+    border: none;
+    font-family: 'Solway', serif;
+    background-color: aliceblue;
+}
+.but_livreur {
+    border: none;
+    background: #5eabed;
+    color: white;
+    font-family: 'Solway', serif;
+}
+
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes left {
+    0% {
+        left : 50%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes up {
+    0% {
+        bottom: 0%;
+    }
+    100%{
+        bottom: 100%;
+    }
+}
+
+
+

@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 80px;
+}
+
+body {
+    font-family: 'Solway', serif;
+    background: url(../login_livreur/login_img/bg-l3.jpg) top left/cover no-repeat;
+}
+
+
+
+
+/*******************LFO9***********************/
+
+
+.lfo9{
+    display:flex;
+    width:33%;
+    height:100px;
+    margin:auto;
+    align-items: center;
+    border-bottom:none; 
+}
+.logo{
+    cursor:pointer;
+    flex:1;  
+}
+.leschoix{
+    justify-content:center;
+    list-style:none;
+    display:flex;
+    flex:1;      
+}
+
+.choix{  
+    color: #005EA5;
+    text-decoration:none;
+    font-weight:500;
+    margin:20px; 
+}
+
+.choix:hover{
+    color:#FF4F09;
+}
+
+
+/******** LTHT ********/
+
+     
+    
+    
+
+.login{
+    background:white;
+    width:400px;
+    height:370px;
+    border-radius:20px;
+    box-shadow: -10px 10px 8px 0px rgba(0, 0, 0, 0.3);
+    padding-top:40px;
+    padding-left:40px;
+    display:flex;
+    flex-direction:column; 
+    background-color:#447ac4; 
+    margin: auto;
+    margin-top:50px;
+    
+}
+.boxconnexion{
+    margin-top:100px; 
+    margin-left:200px; 
+    position:absolute; 
+}
+.button{
+    height:40px;
+    width:130px;
+    border-radius:20px; 
+    margin-left:90px;
+    background:#5b555f;
+    border:none;
+    cursor:pointer;
+    color:#FFF;
+    box-shadow:0  2px  3px rgba(0,0,0,0.6);
+    transition:0.2s  ease; 
+}
+.button:hover{
+    box-shadow:0  4px  8px  rgba(0, 0, 0, 0.6);
+    transition: 0.2s ease;
+}
+.error{
+    cursor:pointer;
+    margin-left:130px;
+    font-size:13px;  
+    margin-top:5px;
+    text-decoration:none; 
+    color:#FFF;
+}
+.error:hover{
+    text-decoration:underline;
+    color:darkblue;
+}
+.inscription{
+    cursor:pointer; 
+    text-decoration:none;
+    color:#FFF;
+}
+.inscription:hover{
+    text-decoration:underline;
+    color:darkblue;
+}
+.info{
+    padding:5px; 
+    color:antiquewhite;
+    font-size:14px;  
+}
+input{
+    height:30px;
+    width:300px; 
+    padding:10px; 
+    border-bottom:1px solid;
+    margin:5px; 
+    box-shadow:0 2px 4px rgba(0,0,0,0.6);
+    transition: 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-bottom:none ;        
+}
+.input:focus{
+    height:31px;
+    width:300px;
+    transition: 0.2s ease;  
+}
+
+
+
+
+
+
+
+
+   

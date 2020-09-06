@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.max-img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.normal {
+    font-size: 16px;
+    text-align: center;
+}
+
+.normal2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Solway', serif;
+}
+
+/***************** header ***************/
+
+main {
+    background: #edebfb;
+    width: 90%;
+    margin: 50px auto;
+}
+
+nav {
+    flex: 10;
+    align-content: center;
+}
+
+.logout {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logout h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.logout h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #242963;
+    padding: 12px 0px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight:300;
+    padding: 17px;
+}
+
+.nav-link:hover {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+/*************** body ********/
+.nav-active {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+.body {
+    padding: 15px;
+}
+
+.room-title {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tasks {
+    display: flex;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.invoice {
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form {
+    flex: 3;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.input-style {
+    width: 120px;
+    padding: 3px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin: 0px 3px;
+}
+
+#adress {
+    width: 230px;
+}
+
+.input-style:focus {
+    border-bottom: 2px solid green;
+}
+
+.c-btn {
+    width: 30%;
+    margin: 15px auto;
+    padding: 8px 0px;
+    border: none;
+    background: #242963;
+    color: white;
+    font-weight: 500;
+    font-family: 'Solway', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.c-btn2 {
+    width: 40%;
+    margin: 1px auto;
+    padding: 8px 0px;
+    border: none;
+    background: #242963;
+    color: white;
+    font-family: 'Solway', serif;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.resume {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.imprimer {
+    text-align: center;
+    padding: 3px;
+}
+
+
+table, th, td {
+    border-top: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid rgb(160, 160, 160);
+    border-collapse: collapse;
+  }
+
+.tab_head {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #242963;
+    height: 35px;
+
+}
+
+
+
+.adress {
+    width: 400px;
+}
+
+.note {
+    width: 300px;
+}
+
+.tab_style {
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(211, 208, 255);
+}
+
+
+  .card {
+    width: 20%;
+    position: relative;
+    padding: 1%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #242963;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 15px;
+    box-shadow: -1px 5px 5px #242963;
+    padding-left: 2%;
+  }
+
+  .boards {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      margin: 0px auto;
+  }
+
+  .price {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .calender {
+      font-size: 10px;
+      color: rgb(236, 236, 236);
+      margin-top: 10px;
+      margin-bottom: -8px;
+  }
+
+  h4,h5 {
+    color: white;
+  }

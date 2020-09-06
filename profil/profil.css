@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.max-img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.normal {
+    font-size: 16px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Solway', serif;
+}
+
+input {
+    border: none;
+    background: transparent;
+    resize: horizontal;
+}
+
+/***************** header ***************/
+
+main {
+    background: #edfafa;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    flex: 10;
+    align-content: center;
+}
+
+.logout {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logout h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.logout h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #242963;
+    padding: 12px 0px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight:300;
+    padding: 17px;
+}
+
+.nav-active {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+.nav-link:hover {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+/*************** body ********/
+
+.body {
+    padding: 0px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* ***********main_card********* */
+.main_card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.sub_main_card {
+    flex: 2;
+    padding: 20px;
+     
+}
+.title {
+    text-align: center;
+}
+.title input {
+    text-align: center;
+    color: #0f1754;
+    font-size: 20px;
+    font-family: 'Solway', serif;
+}
+.title .h1{
+    font-size: 25px;
+}
+
+.title :hover {
+    color: #9a0808 ;
+}
+
+table {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.main_infos img {
+    width: 30px;
+}
+.social ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+.social p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 30px;
+}
+.social img {
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.social a :hover {
+    box-shadow: 2px 2px 5px 5px grey;
+}
+.pic {
+    flex: 1;
+}
+.pic img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 5px grey;
+}
+
+/* ***********infos_card********* */
+.infos_card {
+    width: 80%;
+    margin: auto;
+}
+.infos_card_title {
+    background-color: #01768a;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 12px;
+}
+.infos_card_text {
+    padding: 20px;
+    margin-left: 88px;
+    border-left: 5px solid #01768a;
+    border-bottom: 5px solid #01768a;
+    width: 70%;
+    font-size: 15px;
+}
+#list {
+    margin-left: 55px;
+}
+
+/* ***********about_card********* */
+.about_card {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.about_card_title {
+    background-color: #01768a;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+}
+.about_card_text {
+    padding: 20px;
+    width: 70%;
+    margin-left: 88px;
+    font-size: 16px;
+    border-left: 5px solid #01768a;
+    border-bottom: 5px solid #01768a;
+}
+.about_card_text input {
+    width: 100%;
+    height: 100px;
+}
+
+/* ***********but_card********* */
+.but_card {
+    text-align: center;
+    padding: 20px;
+}
+.but_card button {
+    padding: 10px;
+    background-color: #025283;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px grey;
+    font-family: 'Solway', serif;
+}
+.but_card button:hover {
+    background-color: white;
+    color: #025283;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

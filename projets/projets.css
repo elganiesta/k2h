@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.max-img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.normal {
+    font-size: 16px;
+    text-align: center;
+}
+
+.normal2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Solway', serif;
+}
+
+/***************** header ***************/
+
+main {
+    background: #edebfb;
+    width: 90%;
+    margin: 50px auto;
+}
+
+nav {
+    flex: 10;
+    align-content: center;
+}
+
+.logout {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    margin-right : 14px;
+    color : white;
+    font-weight : 500;
+}
+
+.logout h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.logout h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #242963;
+    padding: 12px 0px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight:300;
+    padding: 17px;
+}
+
+.nav-link:hover {
+    background: #0b1142;
+    border-bottom: 3px solid #424889;
+}
+
+/*************** body ********/
+
+.body {
+    padding: 1%;
+}
+
+.acces {
+    display: flex;
+}
+
+.have_id {
+    flex: 1;
+    text-align: center;
+    padding: 5%;
+    color: #121431;
+}
+
+.create_id {
+    flex: 1;
+    text-align: center;
+    padding: 5%;
+    color: #121431;
+}
+
+input[name="room_id"], input[name="partner"] {
+    border: none;
+    border-bottom: 1px solid #242963;
+    background: transparent;
+    margin: 10px;
+    text-align: center;
+    height: 20px;;
+}
+
+input[name="open"], input[name="create_room"] {
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+    background: #242963;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transition: 0.2s ease;
+}
+
+.line {
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+    border-top: 1px solid #242963;
+    border-radius: 80%;
+    margin-bottom: 15px;
+}
+
+.room {
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    background: #242963;
+    border-radius: 5px;
+}
+
+.room_title {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.room_partner {
+    font-size: 14px;
+    
+    
+    margin: 2px;
+    font-weight: 500;
+}
+
+input[name="enter"] {
+    
+    width: 30%;
+    padding: 5px;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    color: #242963;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transition: 0.2s ease;
+    margin-left: 70%;
+}

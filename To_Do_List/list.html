@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Solway:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./list.css">
+    
+    <title>My Room</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="../postes/postes.html">Dashboard</a></li>
+                    <li><a class="nav-link" href="../postes/profil.html">Profil</a></li>
+                    <li><a class="nav-link" href="#">Projects</a></li>
+                    <li><a class="nav-link" href="../To_Do_List/list2.html">Room</a></li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <img class="max-img" src="./imgs/logout.png" alt="logout">
+                <h1><a href="#">LogOut</a></h1>
+            </div>
+        </header>
+        
+        <div class="body">
+            <div class="room-title">
+                <h1 class="normal">Client : Test</h1>
+                <h1 class="normal">Room's id : 1234</h1>
+                <h1 class="normal">Livreur : Test</h1>
+            </div>
+            <div class="tasks">
+                <div class="incompleted">
+                    <div class="c-title">
+                        <h1 class="normal">Incompleted Tasks</h1>
+                    </div>
+                    
+                    <div class="create">
+                        
+                            <div class="inputs">
+                                <form id="form-task" action="./list.php" method="POST">
+                                <input type="text" class="input-style" id="code" name="code" placeholder="Code">
+                                <input type="text" class="input-style" id="name" name="name" placeholder="Name">
+                                <input type="text" class="input-style" id="adress" name="adress" placeholder="Adress">
+                                <input type="text" class="input-style" id="price" name="price" placeholder="Price">
+                                <input type="text" class="input-style" id="phone" name="phone" placeholder="Phone">
+                                <input type="text" class="input-style" id="note" name="note" placeholder="Note">
+                            </div>
+                            <div class="create-btn">
+                                <input type="submit" name="submit" class="c-btn" value="Create Task">
+                            </form>
+                            </div>
+                        
+                    </div>
+                    <div class="collection" id="c1">
+                           
+                    </div>
+                </div>
+                <div class="completed">
+                    <div class="c-title">
+                        <h1 class="normal">Completed Tasks</h1>
+                    </div>
+                    <div class="facture">
+                        <div class="resume">
+                            <h1 class="normal">Profit Client : 214$</h1>
+                            <h1 class="normal">Profit Livreur : 32$</h1>
+                        </div>
+                        <div class="imprimer">
+                            <input type="submit" id="clear" class="c-btn" value="Clear Tasks">
+                            <input type="submit" name="imprimer" class="c-btn" value="imprimer Facture">
+                        </div>
+                    </div>
+                    <div class="collection" id="c2">
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div style="height: 150px; width: 100%;"></div>
+        </div>    
+            
+        
+
+
+
+<script src="list.js"></script>
+
+</body>
+</html>
